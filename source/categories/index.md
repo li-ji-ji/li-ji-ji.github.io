@@ -1,6 +1,7 @@
 ---
-title: 文章分类
+title: 分类
 date: 2021-01-06 09:55:50
 type: categories
+layout: categories  
 comments: false
 ---
