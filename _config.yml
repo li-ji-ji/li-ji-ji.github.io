@@ -114,4 +114,6 @@ search:
 sitemap:
 	path: sitemap.xml
 baidusitemap:
-	path: baidusitemap.xml
+  path: baidusitemap.xml
+baidu_verify_code-jfAcJylC3J.html:
+  path: baidu_verify_code-jfAcJylC3J.html
