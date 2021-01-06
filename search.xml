@@ -21,6 +21,12 @@
 
 执行 `kill -9 PID` 结束该PID对应的进程</code></pre>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+      </tags>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -45,8 +51,11 @@
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">source ~&#x2F;.zshrc</span><br></pre></td></tr></table></figure>
 <h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><h2 id="当然，类似问题也可以这样解决"><a href="#当然，类似问题也可以这样解决" class="headerlink" title="当然，类似问题也可以这样解决"></a>当然，类似问题也可以这样解决</h2><p><a href="https://blog.csdn.net/Faiz5z/article/details/80986460">参考博客地址</a></p>
 ]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
       <tags>
-        <tag>linux</tag>
+        <tag>Linux</tag>
       </tags>
   </entry>
 </search>
