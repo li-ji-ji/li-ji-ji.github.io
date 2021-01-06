@@ -12,7 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
   <meta name="baidu-site-verification" content="code-jfAcJylC3J" />
   <title>
-     evil-scream
+    centos7环境下运行、关闭jar包 |  evil-scream
   </title>
   <meta name="generator" content="hexo-theme-ayer">
   
@@ -51,17 +51,72 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="page-"
-  class="article article-type-page"
+  id="post-centos7环境下运行、关闭jar包"
+  class="article article-type-post"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
 >
   <div class="article-inner">
+    
+    <header class="article-header">
        
+<h1 class="article-title sea-center" style="border-left:0" itemprop="name">
+  centos7环境下运行、关闭jar包
+</h1>
+ 
+
+    </header>
+     
+    <div class="article-meta">
+      <a href="/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/" class="article-date">
+  <time datetime="2020-02-12T13:53:32.000Z" itemprop="datePublished">2020-02-12</time>
+</a>   
+<div class="word_count">
+    <span class="post-time">
+        <span class="post-meta-item-icon">
+            <i class="ri-quill-pen-line"></i>
+            <span class="post-meta-item-text"> 字数统计:</span>
+            <span class="post-count">220</span>
+        </span>
+    </span>
+
+    <span class="post-time">
+        &nbsp; | &nbsp;
+        <span class="post-meta-item-icon">
+            <i class="ri-book-open-line"></i>
+            <span class="post-meta-item-text"> 阅读时长≈</span>
+            <span class="post-count">1 分钟</span>
+        </span>
+    </span>
+</div>
+ 
+    </div>
+      
+
+
+
+  
     <div class="article-entry" itemprop="articleBody">
        
-  19ef71fd1a14bd85c2e8121efd6fe79d 
+  <ul>
+<li><p>启动</p>
+<p> 执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p>
+<p> 后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p>
+<p> nohub 表示后台不挂断运行<br> 如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br> (使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br> ``<br> nohup java -jar *</strong>.jar &gt;***.log &amp;<br> ``</p>
+</li>
+<li><p>关闭</p>
+<ul>
+<li>方法一：<br>执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID</li>
+</ul>
+</li>
+</ul>
+<pre><code><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root     <span class="number">20032</span>     <span class="number">1</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">20033</span> <span class="number">20032</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">55</span>:<span class="number">54</span> java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">26038</span>     <span class="number">1</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">26039</span> <span class="number">26038</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">06</span>:<span class="number">51</span>:<span class="number">08</span> java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">28443</span>  <span class="number">9171</span>  <span class="number">0</span> <span class="number">21</span>:<span class="number">47</span> pts/<span class="number">3</span>    <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> grep -<span class="literal">-color</span>=auto java</span><br></pre></td></tr></table></figure>
+  - 方法二：
+    执行pidof java 查看现有jar包进程PID
+
+执行 `kill -9 PID` 结束该PID对应的进程</code></pre>
+ 
       <!-- reward -->
       
       <div id="reword-out">
@@ -131,7 +186,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://li-ji-ji.github.io/baidu_verify_code-jfAcJylC3J.html" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://li-ji-ji.github.io/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -140,6 +195,20 @@
   </div>
 
    
+  <nav class="article-nav">
+    
+      <a href="/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="article-nav-link">
+        <strong class="article-nav-caption">上一篇</strong>
+        <div class="article-nav-title">
+          
+            关于zsh启动时需手动source ~/.zshrc的解决方案
+          
+        </div>
+      </a>
+    
+    
+  </nav>
+
    
 <!-- valine评论 -->
 <div id="vcomments-box">
@@ -189,7 +258,8 @@
 </style>
 
  
-    
+   
+     
 </article>
 
 </section>
@@ -325,6 +395,23 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
+
+
+<script src="/js/tocbot.min.js"></script>
+
+<script>
+  tocbot.init({
+    tocSelector: '.tocbot',
+    contentSelector: '.article-entry',
+    headingSelector: 'h1, h2, h3, h4, h5, h6',
+    hasInnerContainers: true,
+    scrollSmooth: true,
+    scrollContainer: 'main',
+    positionFixedSelector: '.tocbot',
+    positionFixedClass: 'is-position-fixed',
+    fixedSidebarOffset: 'auto'
+  });
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
