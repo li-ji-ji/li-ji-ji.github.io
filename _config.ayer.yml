@@ -5,7 +5,7 @@ menu:
   分类: /categories
   标签: /tags
   友链: /friends
-  关于我: /2019/about
+  关于我: /2021/about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -82,9 +82,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: "请我喝杯咖啡吧~"
 # 支付宝二维码图片地址，跟你设置logo的方式一样。比如：/images/alipay.jpg
-alipay: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg
+# alipay: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg
 # 微信二维码图片地址
-weixin: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg
+# weixin: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
@@ -121,11 +121,11 @@ layout:
 github:
   # (关闭请设置为false)
   enable: false
-  url: https://github.com/Shen-Yu/hexo-theme-ayer
+  url: https://github.com/li-ji-ji
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
   id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
@@ -159,19 +159,19 @@ katex:
 since: 2020
 
 # 是否显示页脚信息(建议保留)
-pageFooter: true
+pageFooter: false
 
 # ICP备案信息尾部显示
 icp:
   enable: false
   url: "http://www.beian.miit.gov.cn/" # 备案链接
-  text: "浙ICP备88888888" # 备案信息
+  text: "粤ICP备19048059号-1" # 备案信息
 # 公安备案信息尾部显示
 gongan:
   enable: false
   img: /images/beian.png #公安备案图片
   url: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=01234567890123" #公安备案链接
-  text: "浙公网安备01234567890123号" #公安备案信息
+  text: "粤ICP备19048059号-1" #公安备案信息
 
 # 友情链接
 friends_link:

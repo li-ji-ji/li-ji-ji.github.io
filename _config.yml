@@ -111,3 +111,7 @@ search:
   field: post
   format: html
   
+sitemap:
+	path: sitemap.xml
+baidusitemap:
+	path: baidusitemap.xml
