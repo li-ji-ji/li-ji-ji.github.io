@@ -1,7 +1,9 @@
 ---
 title: 关于zsh启动时需手动source ~/.zshrc的解决方案
 date: 2020-05-06 19:53:46
-tags: linux
+categories:
+- Linux
+tags: Linux
 ---
 ## 前置知识：/etc/zsh/zprofile
 这是一个全局的配置文件，在用户登录的时候加载。一般是用来在登录的时候执行一些命令。
