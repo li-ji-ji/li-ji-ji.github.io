@@ -3,7 +3,9 @@ title: centos7环境下运行、关闭jar包
 date: 2020-02-12 21:53:32
 categories:
 - Java
-tags: Java
+tags: 
+- Java
+- Linux
 copyright: true
 ---
  - 启动
