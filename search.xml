@@ -1,25 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>JVM基础</title>
+    <url>/2021/01/08/JVM%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[<h2 id="陈树义JVM基础15讲完结"><a href="#陈树义JVM基础15讲完结" class="headerlink" title="陈树义JVM基础15讲完结"></a>陈树义JVM基础15讲完结</h2><ul>
+<li><p>原文地址： <a href="https://www.cnblogs.com/chanshuyi/p/jvm_serial_00_why_learn_jvm.html">陈树义JVM基础15讲</a></p>
+</li>
+<li><p>思维导图： <img src="/images/JVM%E5%9F%BA%E7%A1%80.png"></p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
+        <tag>JVM</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>centos7环境下运行、关闭jar包</title>
     <url>/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/</url>
     <content><![CDATA[<ul>
-<li><p>启动</p>
-<p> 执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p>
-<p> 后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p>
-<p> nohub 表示后台不挂断运行<br> 如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br> (使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br> ``<br> nohup java -jar *</strong>.jar &gt;***.log &amp;<br> ``</p>
-</li>
-<li><p>关闭</p>
+<li>启动</li>
+</ul>
+<p>执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p>
+<p>后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p>
+<p>nohub 表示后台不挂断运行<br>如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br>(使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br>``<br>nohup java -jar *</strong>.jar &gt;***.log &amp;<br>``</p>
 <ul>
+<li>关闭<ul>
 <li>方法一：<br>执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID</li>
 </ul>
 </li>
 </ul>
-<pre><code><figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">root     <span class="number">20032</span>     <span class="number">1</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">20033</span> <span class="number">20032</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">55</span>:<span class="number">54</span> java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">26038</span>     <span class="number">1</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">26039</span> <span class="number">26038</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">06</span>:<span class="number">51</span>:<span class="number">08</span> java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">28443</span>  <span class="number">9171</span>  <span class="number">0</span> <span class="number">21</span>:<span class="number">47</span> pts/<span class="number">3</span>    <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> grep -<span class="literal">-color</span>=auto java</span><br></pre></td></tr></table></figure>
-  - 方法二：
-    执行pidof java 查看现有jar包进程PID
-
-执行 `kill -9 PID` 结束该PID对应的进程</code></pre>
+<figure class="highlight powershell"><table><tr><td class="code"><pre><span class="line">root     <span class="number">20032</span>     <span class="number">1</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">20033</span> <span class="number">20032</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">55</span>:<span class="number">54</span> java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">26038</span>     <span class="number">1</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">26039</span> <span class="number">26038</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">06</span>:<span class="number">51</span>:<span class="number">08</span> java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">28443</span>  <span class="number">9171</span>  <span class="number">0</span> <span class="number">21</span>:<span class="number">47</span> pts/<span class="number">3</span>    <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> grep -<span class="literal">-color</span>=auto java</span><br></pre></td></tr></table></figure>
+<ul>
+<li>方法二：<br>执行pidof java 查看现有jar包进程PID</li>
+</ul>
+<p>执行 <code>kill -9 PID</code> 结束该PID对应的进程</p>
 ]]></content>
       <categories>
         <category>Java</category>

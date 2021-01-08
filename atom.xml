@@ -6,7 +6,7 @@
   <link href="https://li-ji-ji.github.io/atom.xml" rel="self"/>
   
   <link href="https://li-ji-ji.github.io/"/>
-  <updated>2021-01-08T07:43:07.625Z</updated>
+  <updated>2021-01-08T13:51:48.537Z</updated>
   <id>https://li-ji-ji.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://li-ji-ji.github.io/2021/01/08/hello-world/"/>
     <id>https://li-ji-ji.github.io/2021/01/08/hello-world/</id>
-    <published>2021-01-08T07:43:07.625Z</published>
-    <updated>2021-01-08T07:43:07.625Z</updated>
+    <published>2021-01-08T13:51:48.537Z</published>
+    <updated>2021-01-08T13:51:48.537Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
     
@@ -37,11 +37,38 @@
   </entry>
   
   <entry>
+    <title>JVM基础</title>
+    <link href="https://li-ji-ji.github.io/2021/01/08/JVM%E5%9F%BA%E7%A1%80/"/>
+    <id>https://li-ji-ji.github.io/2021/01/08/JVM%E5%9F%BA%E7%A1%80/</id>
+    <published>2021-01-08T13:30:53.000Z</published>
+    <updated>2021-01-08T13:51:48.537Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="陈树义JVM基础15讲完结"><a href="#陈树义JVM基础15讲完结" class="headerlink" title="陈树义JVM基础15讲完结"></a>陈树义JVM基础15讲完结</h2><ul><li><p>原文地址： <a href="https://www.cnblogs.com/chanshuyi/p/jvm_serial_00_why_learn_jvm.html">陈树义JVM基础15讲</a></p></li><li><p>思维导图： <img src="/images/JVM%E5%9F%BA%E7%A1%80.png"></p></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;a href=&quot;#陈树义JVM基础15讲完结&quot; class=&quot;headerlink&quot; title=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;/a&gt;陈树义JVM基础15讲完结&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;原文地址： &lt;a href=&quot;ht</summary>
+      
+    
+    
+    
+    <category term="Java" scheme="https://li-ji-ji.github.io/categories/Java/"/>
+    
+    
+    <category term="Java" scheme="https://li-ji-ji.github.io/tags/Java/"/>
+    
+    <category term="JVM" scheme="https://li-ji-ji.github.io/tags/JVM/"/>
+    
+  </entry>
+  
+  <entry>
     <title>关于zsh启动时需手动source ~/.zshrc的解决方案</title>
     <link href="https://li-ji-ji.github.io/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://li-ji-ji.github.io/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2020-05-06T11:53:46.000Z</published>
-    <updated>2021-01-08T07:43:07.625Z</updated>
+    <updated>2021-01-08T13:51:48.537Z</updated>
     
     <content type="html"><![CDATA[<h2 id="前置知识：-etc-zsh-zprofile"><a href="#前置知识：-etc-zsh-zprofile" class="headerlink" title="前置知识：/etc/zsh/zprofile"></a>前置知识：/etc/zsh/zprofile</h2><p>这是一个全局的配置文件，在用户登录的时候加载。一般是用来在登录的时候执行一些命令。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo gedit ~&#x2F;.zprofile</span><br></pre></td></tr></table></figure><p>添加脚本</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">source ~&#x2F;.zshrc</span><br></pre></td></tr></table></figure><h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><h2 id="当然，类似问题也可以这样解决"><a href="#当然，类似问题也可以这样解决" class="headerlink" title="当然，类似问题也可以这样解决"></a>当然，类似问题也可以这样解决</h2><p><a href="https://blog.csdn.net/Faiz5z/article/details/80986460">参考博客地址</a></p>]]></content>
     
@@ -65,18 +92,19 @@
     <link href="https://li-ji-ji.github.io/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/"/>
     <id>https://li-ji-ji.github.io/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/</id>
     <published>2020-02-12T13:53:32.000Z</published>
-    <updated>2021-01-08T07:43:07.625Z</updated>
+    <updated>2021-01-08T13:51:48.537Z</updated>
     
-    <content type="html"><![CDATA[<ul><li><p>启动</p><p> 执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p><p> 后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p><p> nohub 表示后台不挂断运行<br> 如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br> (使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br> ``<br> nohup java -jar *</strong>.jar &gt;***.log &amp;<br> ``</p></li><li><p>关闭</p><ul><li>方法一：<br>执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID</li></ul></li></ul><pre><code><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root     <span class="number">20032</span>     <span class="number">1</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">20033</span> <span class="number">20032</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">55</span>:<span class="number">54</span> java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">26038</span>     <span class="number">1</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">26039</span> <span class="number">26038</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">06</span>:<span class="number">51</span>:<span class="number">08</span> java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">28443</span>  <span class="number">9171</span>  <span class="number">0</span> <span class="number">21</span>:<span class="number">47</span> pts/<span class="number">3</span>    <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> grep -<span class="literal">-color</span>=auto java</span><br></pre></td></tr></table></figure>  - 方法二：    执行pidof java 查看现有jar包进程PID执行 `kill -9 PID` 结束该PID对应的进程</code></pre>]]></content>
+    <content type="html"><![CDATA[<ul><li>启动</li></ul><p>执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p><p>后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p><p>nohub 表示后台不挂断运行<br>如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br>(使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br>``<br>nohup java -jar *</strong>.jar &gt;***.log &amp;<br>``</p><ul><li>关闭<ul><li>方法一：<br>执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID</li></ul></li></ul><figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root     <span class="number">20032</span>     <span class="number">1</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">20033</span> <span class="number">20032</span>  <span class="number">0</span> Jan01 ?        <span class="number">00</span>:<span class="number">55</span>:<span class="number">54</span> java <span class="literal">-jar</span> myblog.jar</span><br><span class="line">root     <span class="number">26038</span>     <span class="number">1</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> sudo nohup java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">26039</span> <span class="number">26038</span>  <span class="number">0</span>  <span class="number">2019</span> ?        <span class="number">06</span>:<span class="number">51</span>:<span class="number">08</span> java <span class="literal">-jar</span> IctExam.jar</span><br><span class="line">root     <span class="number">28443</span>  <span class="number">9171</span>  <span class="number">0</span> <span class="number">21</span>:<span class="number">47</span> pts/<span class="number">3</span>    <span class="number">00</span>:<span class="number">00</span>:<span class="number">00</span> grep -<span class="literal">-color</span>=auto java</span><br></pre></td></tr></table></figure><ul><li>方法二：<br>执行pidof java 查看现有jar包进程PID</li></ul><p>执行 <code>kill -9 PID</code> 结束该PID对应的进程</p>]]></content>
     
     
       
       
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;启动&lt;/p&gt;
-&lt;p&gt; 执行  &lt;code&gt;cd 文件夹路径&lt;/code&gt;  命令进入jar包所在文件夹&lt;/p&gt;
-&lt;p&gt; 后台运行jar包：执行 &lt;code&gt;nohup java -jar ***.jar &amp;amp;&lt;/code&gt;   &lt;/p&gt;
-&lt;p&gt; no</summary>
+&lt;li&gt;启动&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;执行  &lt;code&gt;cd 文件夹路径&lt;/code&gt;  命令进入jar包所在文件夹&lt;/p&gt;
+&lt;p&gt;后台运行jar包：执行 &lt;code&gt;nohup java -jar ***.jar &amp;amp;&lt;/code&gt;   &lt;/p&gt;
+&lt;p&gt;n</summary>
       
     
     
