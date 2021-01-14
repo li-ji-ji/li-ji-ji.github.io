@@ -1,2 +1,2 @@
-https://li-ji-ji.github.io/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/
-https://li-ji-ji.github.io/2021/01/08/JVM%E5%9F%BA%E7%A1%80/
+https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/
+https://blog.evil-scream.cn/2021/01/08/JVM%E5%9F%BA%E7%A1%80/
