@@ -4,5 +4,5 @@ Allow: /archives/
 Allow: /categories/
 Allow: /tags/ 
 
-Sitemap: https://li-ji-ji.github.io/sitemap.xml
-Sitemap: https://li-ji-ji.github.io/baidusitemap.xml
+Sitemap: https://blog.evil-scream.cn/sitemap.xml
+Sitemap: https:/blog.evil-scream.cn/baidusitemap.xml
