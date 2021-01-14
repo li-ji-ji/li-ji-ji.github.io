@@ -138,12 +138,12 @@ busuanzi:
 # 友盟cnzz统计(url填js代码src链接)
 cnzz:
   enable: true
-  url: https://s9.cnzz.com/z_stat.php?id=1278069914&web_id=1278069914
+  url: https://v1.cnzz.com/z_stat.php?id=1279619947&web_id=1279619947
 
 # Google Analytics
 google_analytics: ""
 # 百度统计
-baidu_analytics: ""
+baidu_analytics: "e63b83e32ffd141ab050decea213aa7b"
 
 # Mathjax数学公式
 mathjax: false
