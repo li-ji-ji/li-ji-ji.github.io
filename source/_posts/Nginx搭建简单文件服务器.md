@@ -50,7 +50,7 @@ tags:
     保存文件并重启Nginx
 
 ### 4. 效果图
-  * ![](/images/Nginx搭建简单文件服务器/Nginx简单文件服务器.webp)
+  * ![](/images/Nginx搭建简单文件服务器/img1.webp)
 
 ### 5. 坑
   * 403 Forbidden 
@@ -71,7 +71,7 @@ tags:
 
     > 是 nginx 运行用户的问题，```ps -aux | grep nginx``` 查看 nginx worker 用户
 
-    > ![](/images/Nginx搭建简单文件服务器/Nginx简单文件服务器2.webp)
+    > ![](/images/Nginx搭建简单文件服务器/img2.webp)
     > 运行用户为 http ，修改 nginx 运行用户（如果nginx配置的用户和静态文件的用户不匹配，那怕权限是777也会出现权限问题）
 
     > 在 nginx.conf 开头加入 ```user 用户名 用户组; # 这里的用户名和组就是文件夹的```
