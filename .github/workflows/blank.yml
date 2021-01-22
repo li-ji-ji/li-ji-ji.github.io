@@ -1,0 +1,16 @@
+name: HEXO CI
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [15.x]
+
+    steps:
+      - name: Submit the sitemap to baidu 
+        run: |
+          sh endPoint.sh public/
+          curl -H 'Content-Type:text/plain' --data-binary @sitemap.txt "http://data.zz.baidu.com/urls?site=lingmin.me&token=your_token"
