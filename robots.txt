@@ -5,4 +5,4 @@ Allow: /categories/
 Allow: /tags/ 
 
 Sitemap: https://blog.evil-scream.cn/sitemap.xml
-Sitemap: https:/blog.evil-scream.cn/baidusitemap.xml
+Sitemap: https://blog.evil-scream.cn/baidusitemap.xml
