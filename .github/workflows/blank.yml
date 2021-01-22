@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Submit the sitemap to baidu 
         run: |
-          sh endPoint.sh public/
+          sh ./endPoint.sh public/
           curl -H 'Content-Type:text/plain' --data-binary @updatesitemap.txt "http://data.zz.baidu.com/urls?site=https://blog.evil-scream.cn&token=RQb88qnWj5MUFOYp"
