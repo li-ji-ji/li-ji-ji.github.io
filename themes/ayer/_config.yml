@@ -5,7 +5,7 @@ menu:
   分类: /categories
   标签: /tags
   # 友链: /friends
-  关于我: /2021/about
+  关于我: /about
 
 # 站点次标题和打字动效
 # https://github.com/mattboldt/typed.js
@@ -106,8 +106,8 @@ canvas_bg: 1
 
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
-  enable: false
-  path: /images/mouse.cur
+  enable: true
+  path: /images/mouse.webp
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
 click_effect: 3
@@ -125,10 +125,10 @@ github:
 
 # 网易云音乐插件
 music:
-  enable: false
+  enable: true
   # 播放器尺寸类型(1：小尺寸、2：大尺寸)
   type: 1
-  id: 22707008 # 网易云分享的音乐ID(更换音乐请更改此配置项)
+  id: 25906125 # 网易云分享的音乐ID(更换音乐请更改此配置项)
   autoPlay: true # 是否开启自动播放
 
 # 访问量统计(不蒜子)

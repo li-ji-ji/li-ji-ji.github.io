@@ -20,6 +20,8 @@ tags:
   * 查找Nginx配置文件: ```sudo find / -name nginx.conf```
   * 一般存放在 /etc/nginx/nginx.conf
 
+<!--more-->
+
 ### 3. 修改配置文件
   * 在 http 节点中添加以下代码
     ```
@@ -50,7 +52,7 @@ tags:
     保存文件并重启Nginx
 
 ### 4. 效果图
-  * ![](/images/Nginx搭建简单文件服务器/img1.webp)
+  * ![Nginx搭建简单文件服务器](/images/Nginx搭建简单文件服务器/img1.webp)
 
 ### 5. 坑
   * 403 Forbidden 
@@ -71,12 +73,12 @@ tags:
 
     > 是 nginx 运行用户的问题，```ps -aux | grep nginx``` 查看 nginx worker 用户
 
-    > ![](/images/Nginx搭建简单文件服务器/img2.webp)
+    > ![Nginx搭建简单文件服务器](/images/Nginx搭建简单文件服务器/img2.webp)
     > 运行用户为 http ，修改 nginx 运行用户（如果nginx配置的用户和静态文件的用户不匹配，那怕权限是777也会出现权限问题）
 
     > 在 nginx.conf 开头加入 ```user 用户名 用户组; # 这里的用户名和组就是文件夹的```
 
-    # Over
+## Over
 
 
 
