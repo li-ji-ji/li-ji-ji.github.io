@@ -125,7 +125,6 @@ baidu_url_submit:
 
 # Toc 用 Tocbot 解析文章标题并生成目录
 toc: true
- 
 
 live2d:
   enable: false
