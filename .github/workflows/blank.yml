@@ -13,4 +13,4 @@ jobs:
       - name: Submit the sitemap to baidu 
         run: |
           sh endPoint.sh public/
-          curl -H 'Content-Type:text/plain' --data-binary @sitemap.txt "http://data.zz.baidu.com/urls?site=lingmin.me&token=your_token"
+          curl -H 'Content-Type:text/plain' --data-binary @updatesitemap.txt "http://data.zz.baidu.com/urls?site=https://blog.evil-scream.cn&token=RQb88qnWj5MUFOYp"
