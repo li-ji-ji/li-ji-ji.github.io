@@ -28,7 +28,7 @@ logo: /images/ayer-side.svg
 # enable-是否启用封面；path-封面背景图；logo-封面logo
 cover:
   enable: true
-  path: /images/cover2.webp # /source/images目录下附送多张美图，可更换
+  path: https://blog-1257162717.cos.ap-shanghai.myqcloud.com/public/cover2.webp # /source/images目录下附送多张美图，可更换
   logo: false #/images/ayer.svg，如果不要直接设置成false
 
 # 页面顶部进度条
@@ -245,3 +245,4 @@ ads:
   #   img: https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/ten_2.jpg
   #   url: https://curl.qcloud.com/kvO7hb43
   #   width: 300
+
