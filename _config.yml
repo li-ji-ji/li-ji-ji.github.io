@@ -4,9 +4,9 @@
 
 # Site
 title: Evil的养鸡场
-subtitle: '编程 程序员 Java React Linux SpringBoot'
-description: '编程 程序员 Java React Linux SpringBoot'
-keywords: "编程 程序员 Java React Linux SpringBoot"
+subtitle: '编程，程序员，Java，React，Linux，SpringBoot'
+description: '编程，程序员，Java，React，Linux，SpringBoot'
+keywords: "编程，程序员，Java，React，Linux，SpringBoot"
 author: evil-scream
 language: zh-CN
 timezone: 'Asia/Shanghai'
@@ -52,7 +52,7 @@ highlight:
   wrap: true
   hljs: false
 prismjs:
-  enable: false
+  enable: true
   preprocess: true
   line_number: true
   tab_replace: ''

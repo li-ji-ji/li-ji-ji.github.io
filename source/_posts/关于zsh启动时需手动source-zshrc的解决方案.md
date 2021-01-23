@@ -10,13 +10,13 @@ copyright: true
 这是一个全局的配置文件，在用户登录的时候加载。一般是用来在登录的时候执行一些命令。
 ## 解决方案
 
-```
+```shell
 sudo gedit ~/.zprofile
 ```
 
 添加脚本
 
-```
+```shell
 source ~/.zshrc
 ```
 # 大功告成

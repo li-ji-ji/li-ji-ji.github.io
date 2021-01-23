@@ -24,7 +24,7 @@ tags:
 
 ### 3. 修改配置文件
   * 在 http 节点中添加以下代码
-    ```
+    ```nginx
       autoindex on;             #开启索引功能
       autoindex_exact_size off; # 关闭计算文件确切大小（单位bytes），只显示大概大小（单位kb、mb、gb）
       autoindex_localtime on;   # 显示本机时间而非 GMT 时间
