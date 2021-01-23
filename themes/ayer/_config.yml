@@ -106,7 +106,7 @@ canvas_bg: 1
 
 # 自定义鼠标样式，直接替换/images/mouse.cur文件
 mouse:
-  enable: true
+  enable: false
   path: /images/mouse.webp
 
 # 鼠标点击效果：0-关闭，1-爱心，2-爆炸烟花，3-粒子烟花
