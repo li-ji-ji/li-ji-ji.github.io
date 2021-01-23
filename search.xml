@@ -62,11 +62,12 @@
 <p>是 nginx 运行用户的问题，<code>ps -aux | grep nginx</code> 查看 nginx worker 用户<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/img2.webp" alt="Nginx搭建简单文件服务器"><br>运行用户为 http ，修改 nginx 运行用户（如果nginx配置的用户和静态文件的用户不匹配，那怕权限是777也会出现权限问题）  </p>
 </blockquote>
 <blockquote>
-<p>在 nginx.conf 开头加入: <code>user 用户名 用户组; # 这里的用户名和组就是文件夹的</code></p>
+<p>在 nginx.conf 开头加入: </p>
+<pre class="line-numbers language-nginx" data-language="nginx"><code class="language-nginx"><span class="token keyword">user</span> 用户名 用户组<span class="token punctuation">;</span> <span class="token comment"># 这里的用户名和组就是文件夹的</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 </blockquote>
-</li>
+<h2 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h2></li>
 </ul>
-<h2 id="Over"><a href="#Over" class="headerlink" title="Over"></a>Over</h2>]]></content>
+]]></content>
       <categories>
         <category>Nginx</category>
       </categories>
@@ -92,12 +93,12 @@
       </tags>
   </entry>
   <entry>
-    <title>关于zsh启动时需手动source ~/.zshrc的解决方案</title>
+    <title>关于Linux下zsh启动时需手动source ~/.zshrc的解决方案</title>
     <url>/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</url>
     <content><![CDATA[<h2 id="前置知识：-etc-zsh-zprofile"><a href="#前置知识：-etc-zsh-zprofile" class="headerlink" title="前置知识：/etc/zsh/zprofile"></a>前置知识：/etc/zsh/zprofile</h2><p>这是一个全局的配置文件，在用户登录的时候加载。一般是用来在登录的时候执行一些命令。</p>
-<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">sudo gedit ~&#x2F;.zprofile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">sudo gedit ~<span class="token operator">/</span><span class="token punctuation">.</span>zprofile<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p>添加脚本</p>
-<pre class="line-numbers language-shell" data-language="shell"><code class="language-shell">source ~&#x2F;.zshrc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">source ~<span class="token operator">/</span><span class="token punctuation">.</span>zshrc<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h1 id="大功告成"><a href="#大功告成" class="headerlink" title="大功告成"></a>大功告成</h1><h2 id="当然，类似问题也可以这样解决"><a href="#当然，类似问题也可以这样解决" class="headerlink" title="当然，类似问题也可以这样解决"></a>当然，类似问题也可以这样解决</h2><p><a href="https://blog.csdn.net/Faiz5z/article/details/80986460">参考博客地址</a></p>
 ]]></content>
       <categories>
@@ -108,29 +109,21 @@
       </tags>
   </entry>
   <entry>
-    <title>centos7环境下运行、关闭jar包</title>
+    <title>Linux环境下运行、关闭jar包</title>
     <url>/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/</url>
     <content><![CDATA[<ul>
-<li>启动</li>
+<li>启动<br>执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹<br>后台运行jar包：<pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">nohup java <span class="token operator">-</span>jar <span class="token operator">*</span>*<span class="token operator">*</span><span class="token punctuation">.</span>jar &amp;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<code>nohub</code> 表示后台不挂断运行<br>如需将日志输出到指定文件，在&amp;前面加上&gt;***.log ，如下：<br>(使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">nohup java <span class="token operator">-</span>jar <span class="token operator">*</span>*<span class="token operator">*</span><span class="token punctuation">.</span>jar ><span class="token operator">*</span>*<span class="token operator">*</span><span class="token punctuation">.</span>log &amp;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li>
+<li>关闭</li>
 </ul>
-<p>执行  <code>cd 文件夹路径</code>  命令进入jar包所在文件夹</p>
-<p>后台运行jar包：执行 <code>nohup java -jar ***.jar &amp;</code>   </p>
-<p>nohub 表示后台不挂断运行<br>如需将日志输出到指定文件，在&amp;前面加上&gt;<strong>*.log ，如下：<br>(使用&gt;为覆盖源文件，使用 &gt;&gt; 则为续写文件)<br>``<br>nohup java -jar *</strong>.jar &gt;***.log &amp;<br>``</p>
-<ul>
-<li>关闭<ul>
-<li>方法一：<br>执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID</li>
-</ul>
-</li>
-</ul>
-<pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">root     20032     1  0 Jan01 ?        00:00:00 sudo nohup java <span class="token operator">-</span>jar myblog<span class="token punctuation">.</span>jar
+<ol>
+<li>方法一：<br> 执行 <code>ps -ef|grep java</code> 命令查看当前正在运行的java进程，结果如下，第二列为进程PID  <pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">root     20032     1  0 Jan01 ?        00:00:00 sudo nohup java <span class="token operator">-</span>jar myblog<span class="token punctuation">.</span>jar
 root     20033 20032  0 Jan01 ?        00:55:54 java <span class="token operator">-</span>jar myblog<span class="token punctuation">.</span>jar
 root     26038     1  0  2019 ?        00:00:00 sudo nohup java <span class="token operator">-</span>jar IctExam<span class="token punctuation">.</span>jar
 root     26039 26038  0  2019 ?        06:51:08 java <span class="token operator">-</span>jar IctExam<span class="token punctuation">.</span>jar
-root     28443  9171  0 21:47 pts<span class="token operator">/</span>3    00:00:00 grep <span class="token operator">--</span>color=auto java<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<ul>
-<li>方法二：<br>执行pidof java 查看现有jar包进程PID</li>
-</ul>
-<p>执行 <code>kill -9 PID</code> 结束该PID对应的进程</p>
+root     28443  9171  0 21:47 pts<span class="token operator">/</span>3    00:00:00 grep <span class="token operator">--</span>color=auto java<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+<li>方法二：<br>执行<code>pidof java</code> 或者 <code>jps</code> 查看现有jar包进程PID<br>执行 <code>kill -9 PID</code> 结束该PID对应的进程</li>
+</ol>
 ]]></content>
       <categories>
         <category>Java</category>

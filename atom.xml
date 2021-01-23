@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Evil的养鸡场</title>
   
-  <subtitle>编程，程序员，Java，React，Linux，SpringBoot</subtitle>
+  <subtitle>编程,Java</subtitle>
   <link href="https://blog.evil-scream.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.evil-scream.cn/"/>
-  <updated>2021-01-23T10:35:29.148Z</updated>
+  <updated>2021-01-23T11:15:51.284Z</updated>
   <id>https://blog.evil-scream.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2021-01-11T09:31:43.000Z</published>
-    <updated>2021-01-23T10:35:29.148Z</updated>
+    <updated>2021-01-23T11:15:51.284Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;1-Nginx安装&quot;&gt;&lt;a href=&quot;#1-Nginx安装&quot; class=&quot;headerlink&quot; title=&quot;1. Nginx安装&quot;&gt;&lt;/a&gt;1. Nginx安装&lt;/h3&gt;&lt;ul&gt;
@@ -50,7 +50,7 @@
     <link href="https://blog.evil-scream.cn/2021/01/08/JVM%E5%9F%BA%E7%A1%80/"/>
     <id>https://blog.evil-scream.cn/2021/01/08/JVM%E5%9F%BA%E7%A1%80/</id>
     <published>2021-01-08T13:30:53.000Z</published>
-    <updated>2021-01-23T10:35:29.148Z</updated>
+    <updated>2021-01-23T11:15:51.284Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;a href=&quot;#陈树义JVM基础15讲完结&quot; class=&quot;headerlink&quot; title=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;/a&gt;陈树义JVM基础15讲完结&lt;/h2&gt;&lt;ul&gt;
@@ -68,11 +68,11 @@
   </entry>
   
   <entry>
-    <title>关于zsh启动时需手动source ~/.zshrc的解决方案</title>
+    <title>关于Linux下zsh启动时需手动source ~/.zshrc的解决方案</title>
     <link href="https://blog.evil-scream.cn/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://blog.evil-scream.cn/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2020-05-06T11:53:46.000Z</published>
-    <updated>2021-01-23T10:35:29.148Z</updated>
+    <updated>2021-01-23T11:15:51.284Z</updated>
     
     
       
@@ -93,11 +93,11 @@
   </entry>
   
   <entry>
-    <title>centos7环境下运行、关闭jar包</title>
+    <title>Linux环境下运行、关闭jar包</title>
     <link href="https://blog.evil-scream.cn/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/"/>
     <id>https://blog.evil-scream.cn/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/</id>
     <published>2020-02-12T13:53:32.000Z</published>
-    <updated>2021-01-23T10:35:29.148Z</updated>
+    <updated>2021-01-23T11:15:51.284Z</updated>
     
     
       
@@ -105,10 +105,7 @@
         
         
     <summary type="html">&lt;ul&gt;
-&lt;li&gt;启动&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;执行  &lt;code&gt;cd 文件夹路径&lt;/code&gt;  命令进入jar包所在文件夹&lt;/p&gt;
-&lt;p&gt;后台运行jar包：执行 &lt;code&gt;nohup java -jar ***.jar &amp;amp;&lt;/code&gt;  </summary>
+&lt;li&gt;启动&lt;br&gt;执行  &lt;code&gt;cd 文件夹路径&lt;/code&gt;  命令进入jar包所在文件夹&lt;br&gt;后台运行jar包：&lt;pre class=&quot;line-numbers language-powershell&quot;</summary>
         
       
     
