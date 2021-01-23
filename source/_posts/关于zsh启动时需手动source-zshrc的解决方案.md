@@ -11,13 +11,13 @@ copyright: true
 ## 解决方案
 
 ```powershell
-sudo gedit ~/.zprofile
+  sudo gedit ~/.zprofile
 ```
 
 添加脚本
 
 ```powershell
-source ~/.zshrc
+  source ~/.zshrc
 ```
 # 大功告成
 ## 当然，类似问题也可以这样解决
