@@ -4,7 +4,8 @@
     <title>fcitx5在vscode中的BUG</title>
     <url>/2021/01/24/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/</url>
     <content><![CDATA[<h2 id="关于fcitx5在vscode命令行中输入重复的问题"><a href="#关于fcitx5在vscode命令行中输入重复的问题" class="headerlink" title="关于fcitx5在vscode命令行中输入重复的问题"></a>关于fcitx5在vscode命令行中输入重复的问题</h2><h3 id="问题发现"><a href="#问题发现" class="headerlink" title="问题发现"></a>问题发现</h3><ul>
-<li>最近fcitx4版本的输入法用腻了，听说fcitx5不错，于是尝尝鲜，结果bug吸引体质又发挥作用了，在vscode的命令行里打字的时候就出现bug了（不要问我为什么要在终端里敲中文= =），bug效果如下：<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/1.png" alt="bug图1"><br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/2.png" alt="bug图2">  </li>
+<li>最近fcitx4版本的输入法用腻了，听说fcitx5不错，于是尝尝鲜，结果bug吸引体质又发挥作用了，在vscode的命令行里打字的时候就出现bug了（不要问我为什么要在终端里敲中文= =），bug效果如下：  <a id="more"></a>
+<img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/1.png" alt="bug图1"><br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/2.png" alt="bug图2">  </li>
 <li>简单来说就是打出来的字实际上是上一次输入的最后两个字  </li>
 <li>经过排除之后，是 <code>fcitx5-chinese-addons</code> 这个包里面的输入法引起的问题，至于原因本菜鸡就不知道了  </li>
 </ul>
