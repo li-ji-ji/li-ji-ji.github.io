@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>fcitx5在vscode中的BUG</title>
+    <url>/2021/01/24/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/</url>
+    <content><![CDATA[<h2 id="关于fcitx5在vscode命令行中输入重复的问题"><a href="#关于fcitx5在vscode命令行中输入重复的问题" class="headerlink" title="关于fcitx5在vscode命令行中输入重复的问题"></a>关于fcitx5在vscode命令行中输入重复的问题</h2><h3 id="问题发现"><a href="#问题发现" class="headerlink" title="问题发现"></a>问题发现</h3><ul>
+<li>最近fcitx4版本的输入法用腻了，听说fcitx5不错，于是尝尝鲜，结果bug吸引体质又发挥作用了，在vscode的命令行里打字的时候就出现bug了（不要问我为什么要在终端里敲中文= =），bug效果如下：<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/1.png" alt="bug图1"><br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/2.png" alt="bug图2">  </li>
+<li>简单来说就是打出来的字实际上是上一次输入的最后两个字  </li>
+<li>经过排除之后，是 <code>fcitx5-chinese-addons</code> 这个包里面的输入法引起的问题，至于原因本菜鸡就不知道了  </li>
+</ul>
+<h3 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h3><ul>
+<li>很简单，不使用 <code>fcitx5-chinese-addons</code> ，改用 <code>fcitx5-rime</code>，问题解决<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/3.png" alt="解决图1"></li>
+<li><code>fcitx5-rime</code> 默认设置是繁体，使用 <code>F4</code> 可以进行切换，效果如下：<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/4.png" alt="解决图2"></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Linux</category>
+      </categories>
+      <tags>
+        <tag>fcitx5</tag>
+        <tag>vscode</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Nginx搭建简单文件服务器</title>
     <url>/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</url>
     <content><![CDATA[<h3 id="1-Nginx安装"><a href="#1-Nginx安装" class="headerlink" title="1. Nginx安装"></a>1. Nginx安装</h3><ul>
