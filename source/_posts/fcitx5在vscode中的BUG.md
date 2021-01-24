@@ -13,6 +13,7 @@ tags:
 ## 关于fcitx5在vscode命令行中输入重复的问题  
 ### 问题发现
 - 最近fcitx4版本的输入法用腻了，听说fcitx5不错，于是尝尝鲜，结果bug吸引体质又发挥作用了，在vscode的命令行里打字的时候就出现bug了（不要问我为什么要在终端里敲中文= =），bug效果如下：  
+<!--more-->
 ![bug图1](https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/1.png)  
 ![bug图2](https://blog-1257162717.cos.ap-shanghai.myqcloud.com/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/2.png)  
 - 简单来说就是打出来的字实际上是上一次输入的最后两个字  
