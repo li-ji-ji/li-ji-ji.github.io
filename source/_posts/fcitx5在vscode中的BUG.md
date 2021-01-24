@@ -4,10 +4,10 @@ reward: true
 copyright: true
 date: 2021-01-25 01:35:54
 categories:
--Linux
+- Linux
 tags:
--fcitx5
--vscode
+- fcitx5
+- vscode
 ---
 
 ## 关于fcitx5在vscode命令行中输入重复的问题  
