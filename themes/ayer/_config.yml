@@ -201,6 +201,8 @@ leancloud:
   enable: true
   app_id: IbzsqtT1lmQ9jnCeDAwS0Xrf-gzGzoHsz #
   app_key: Bw1QLfF1OcQsRtHaOdepcKAp #
+  read_count: true
+
 # Valine配置
 valine:
   enable: true # 是否启用

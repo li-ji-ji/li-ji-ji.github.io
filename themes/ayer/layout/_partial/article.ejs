@@ -12,10 +12,14 @@
     </header>
     <% } %> <% if (index || is_post()) { %>
     <div class="article-meta">
-      <%- partial('post/date', {class_name: 'article-date', date_format: null})
-      %> <%- partial('post/category') %> <% if(theme.word_count &&
-      theme.word_count.enable && !post.no_word_count){%> <%-
-      partial('post/word') %> <% } %>
+      <%- partial('post/date', {class_name: 'article-date', date_format: null}) %> 
+      <%- partial('post/category') %> 
+      <% if(theme.leancloud.read_count && is_post()){ %>
+        <%- partial('post/read_count') %>
+      <% } %>
+      <% if(theme.word_count && theme.word_count.enable && !post.no_word_count){%>
+      <%- partial('post/word') %> <% } %>
+      
     </div>
     <% } %> <% if (theme.toc && is_post()){ %> <%- partial('post/tocbot') %> <%
     } %> <% if (theme.excerpt_all&&index){ %> <% }else{ %>
