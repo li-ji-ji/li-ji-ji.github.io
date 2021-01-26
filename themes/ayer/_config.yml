@@ -199,7 +199,7 @@ friends_link:
 # 启用Valine必须先创建leancloud应用， 获取 id|key 填入即可
 leancloud:
   enable: true
-  app_id: IbzsqtT1lmQ9jnCeDAwS0Xrf-gzGzoHsz #
+  app_id: IbzsqtT1lmQ9jnCeDAwS0Xrf-gzGzoHsz#
   app_key: Bw1QLfF1OcQsRtHaOdepcKAp #
   read_count: true
 
