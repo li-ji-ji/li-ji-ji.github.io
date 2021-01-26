@@ -116,12 +116,14 @@
     })
   }
   $(function(){
-    <% if(theme.leancloud.time_count){ %>
+    <% if(theme.leancloud.read_count){ %>
       var Counter=AV.Object.extend("Counter");
       <% if(is_post()){ %>
+      console.log("1")
         addCount(Counter);
       <% } %>
       showTime(Counter);
+      console.log("2")
     <% } %>
   });
 </script>
