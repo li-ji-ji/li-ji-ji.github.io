@@ -102,13 +102,13 @@
         // console.log("ok");
       }
       else{
-        var newcounter=new Counter();
-        newcounter.set("title",title);
-        newcounter.set("url",url);
-        newcounter.set("xid",url);
-        newcounter.set("time",1);
-        newcounter.save(null,{
-          success: function(newcounter){
+        var newCounter=new Counter();
+        newCounter.set("title",title);
+        newCounter.set("url",url);
+        newCounter.set("xid",url);
+        newCounter.set("time",1);
+        newCounter.save(null,{
+          success: function(newCounter){
             // console.log("new");
           }
         });
