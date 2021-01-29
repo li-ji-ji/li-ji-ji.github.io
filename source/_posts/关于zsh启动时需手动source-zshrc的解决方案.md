@@ -3,7 +3,12 @@ title: 关于Linux下zsh启动时需手动source ~/.zshrc的解决方案
 date: 2020-05-06 19:53:46
 categories:
 - Linux
-tags: Linux
+tags: 
+- Linux
+- zsh
+keywords: 
+- Linux
+- zsh
 copyright: true
 ---
 ## 前置知识：/etc/zsh/zprofile

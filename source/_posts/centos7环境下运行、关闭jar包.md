@@ -6,6 +6,9 @@ categories:
 tags: 
 - Java
 - Linux
+keywords: 
+- Java
+- Linux
 copyright: true
 ---
 

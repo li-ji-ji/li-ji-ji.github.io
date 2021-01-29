@@ -8,6 +8,10 @@ categories:
 tags:
 - fcitx5
 - vscode
+keywords: 
+- fcitx5
+- vscode
+
 ---
 
 ## 关于fcitx5在vscode命令行中输入重复的问题  

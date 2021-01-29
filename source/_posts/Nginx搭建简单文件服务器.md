@@ -8,6 +8,9 @@ categories:
 tags:
 - Nginx
 - Linux
+keywords: 
+- Nginx
+- Linux
 ---
 
 
