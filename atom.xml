@@ -6,7 +6,7 @@
   <link href="https://blog.evil-scream.cn/atom.xml" rel="self"/>
   
   <link href="https://blog.evil-scream.cn/"/>
-  <updated>2021-01-27T12:26:08.805Z</updated>
+  <updated>2021-01-29T03:54:51.872Z</updated>
   <id>https://blog.evil-scream.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.evil-scream.cn/2021/01/24/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/"/>
     <id>https://blog.evil-scream.cn/2021/01/24/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/</id>
     <published>2021-01-24T17:35:54.000Z</published>
-    <updated>2021-01-27T12:26:08.805Z</updated>
+    <updated>2021-01-29T03:54:51.872Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;关于fcitx5在vscode命令行中输入重复的问题&quot;&gt;&lt;a href=&quot;#关于fcitx5在vscode命令行中输入重复的问题&quot; class=&quot;headerlink&quot; title=&quot;关于fcitx5在vscode命令行中输入重复的问题&quot;&gt;&lt;/a&gt;关于fcitx5在vscode命令行中输入重复的问题&lt;/h2&gt;&lt;h3 id=&quot;问题发现&quot;&gt;&lt;a href=&quot;#问题发现&quot; class=&quot;headerlink&quot; title=&quot;问题发现&quot;&gt;&lt;/a&gt;问题发现&lt;/h3&gt;&lt;ul&gt;
@@ -43,7 +43,7 @@
     <link href="https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
     <published>2021-01-11T09:31:43.000Z</published>
-    <updated>2021-01-27T12:26:08.805Z</updated>
+    <updated>2021-01-29T03:54:51.872Z</updated>
     
     
     <summary type="html">&lt;h3 id=&quot;1-Nginx安装&quot;&gt;&lt;a href=&quot;#1-Nginx安装&quot; class=&quot;headerlink&quot; title=&quot;1. Nginx安装&quot;&gt;&lt;/a&gt;1. Nginx安装&lt;/h3&gt;&lt;ul&gt;
@@ -72,7 +72,7 @@
     <link href="https://blog.evil-scream.cn/2021/01/08/JVM%E5%9F%BA%E7%A1%80/"/>
     <id>https://blog.evil-scream.cn/2021/01/08/JVM%E5%9F%BA%E7%A1%80/</id>
     <published>2021-01-08T13:30:53.000Z</published>
-    <updated>2021-01-27T12:26:08.805Z</updated>
+    <updated>2021-01-29T03:54:51.872Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;a href=&quot;#陈树义JVM基础15讲完结&quot; class=&quot;headerlink&quot; title=&quot;陈树义JVM基础15讲完结&quot;&gt;&lt;/a&gt;陈树义JVM基础15讲完结&lt;/h2&gt;&lt;ul&gt;
@@ -94,7 +94,7 @@
     <link href="https://blog.evil-scream.cn/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/"/>
     <id>https://blog.evil-scream.cn/2020/05/06/%E5%85%B3%E4%BA%8Ezsh%E5%90%AF%E5%8A%A8%E6%97%B6%E9%9C%80%E6%89%8B%E5%8A%A8source-zshrc%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</id>
     <published>2020-05-06T11:53:46.000Z</published>
-    <updated>2021-01-27T12:26:08.805Z</updated>
+    <updated>2021-01-29T03:54:51.872Z</updated>
     
     
       
@@ -112,6 +112,8 @@
     
     <category term="Linux" scheme="https://blog.evil-scream.cn/tags/Linux/"/>
     
+    <category term="zsh" scheme="https://blog.evil-scream.cn/tags/zsh/"/>
+    
   </entry>
   
   <entry>
@@ -119,7 +121,7 @@
     <link href="https://blog.evil-scream.cn/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/"/>
     <id>https://blog.evil-scream.cn/2020/02/12/centos7%E7%8E%AF%E5%A2%83%E4%B8%8B%E8%BF%90%E8%A1%8C%E3%80%81%E5%85%B3%E9%97%ADjar%E5%8C%85/</id>
     <published>2020-02-12T13:53:32.000Z</published>
-    <updated>2021-01-27T12:26:08.805Z</updated>
+    <updated>2021-01-29T03:54:51.872Z</updated>
     
     
       
