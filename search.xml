@@ -1,6 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>最简单启动合成大西瓜</title>
+    <url>/2021/02/04/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/</url>
+    <content><![CDATA[<blockquote>
+<p>最近合成大西瓜忽然爆火，并且出了很多的魔改版<br>很多人找到了源码但是不知道怎么启动<br>毕竟点击index.html之后能打开但是爆了一堆错误<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/1.png" alt="合成大西瓜bug"><br>看来看去不就是跨域问题<br>网上的教程一水的 <code>node</code> + <code>npm</code><br>今天整个个人认为最简单的，这东西实际上不就个静态文件吗<br>该有的依赖不是在包里就是引的cdn，<br>直接 <code>Nginx</code> 他不香吗<br>说整就整</p>
+</blockquote>
+<ol>
+<li><p>安装nginx  </p>
+<ol>
+<li><p><a href="https://blog.evil-scream.cn/2021/01/11/Nginx%E6%90%AD%E5%BB%BA%E7%AE%80%E5%8D%95%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8/"><code>Linux安装Nginx</code></a>  </p>
+</li>
+<li><p><code>Windows</code>: <a href="https://nginx.org/download/nginx-1.19.6.zip">Nginx安装包下载</a>  </p>
+<ul>
+<li><p>解压缩并进入文件夹，点击文件资源管理器地址栏<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/2.jpeg" alt="文件资源管理器地址栏">  </p>
+</li>
+<li><p>输入cmd打开命令行，输入 <code>nginx.exe</code> ，回车<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/3.jpeg" alt="cmd">  </p>
+</li>
+<li><p>启动成功的话能在任务管理器看到 <code>nginx</code><br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/4.jpeg" alt="成功1"><br>或者在浏览器输入 <code>localhost</code> 能看到以下欢迎页<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/5.png" alt="成功2">  </p>
+</li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>配置nginx  </p>
+<ol>
+<li>配置文件所在目录  <ul>
+<li><code>Windows</code> ：解压缩后文件夹里面的 <code>conf</code> 文件夹中的 <code>nginx.conf</code> 文件</li>
+<li><code>Linux</code> ：一般为 <code>/etc/nginx/nginx.conf</code>  </li>
+</ul>
+</li>
+<li>修改配置文件  <ul>
+<li>在 <code>http</code> 节点中 找到 <code>server</code> 如下：<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/6.png" alt="节点">  </li>
+<li>將 <code>root</code> 后面 <code>；</code> 前的内容替换为刚刚下载下来的 <code>gua</code> 文件夹的所在路径  </li>
+<li>重启 <code>Nginx</code>， <code>Windows</code> 可在任务管理器停止掉 <code>nginx.exe</code> 进程再按照前面的方式重新启动， <code>Linux</code> 直接在命令行输入 <code>sudo systemctl restart nginx</code> 即可  </li>
+</ul>
+</li>
+</ol>
+</li>
+<li><p>完成<br>打开浏览器，地址栏输入 <code>localhost</code> 你就可以看到游戏界面了，不过推荐手机访问，电脑访问需要先按 <code>F12</code>， 点击以下图标，<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/7.png" alt="图标"><br>然后选择手机设备才行<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/8.png" alt="图标2">  </p>
+</li>
+<li><p>最后，你可以在自己的服务器上整一个了，不然你以为我为啥一直cue在 <code>Linux</code> 上的操作呢哈哈哈哈，至于自己动手魔改这种事，等我真的闲得蛋疼了可能会出一个教程吧哈哈哈哈</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>无聊至极</category>
+      </categories>
+      <tags>
+        <tag>合成大西瓜</tag>
+        <tag>无聊至极</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>fcitx5在vscode中的BUG</title>
     <url>/2021/01/24/fcitx5%E5%9C%A8vscode%E4%B8%AD%E7%9A%84BUG/</url>
     <content><![CDATA[<h2 id="关于fcitx5在vscode命令行中输入重复的问题"><a href="#关于fcitx5在vscode命令行中输入重复的问题" class="headerlink" title="关于fcitx5在vscode命令行中输入重复的问题"></a>关于fcitx5在vscode命令行中输入重复的问题</h2><h3 id="问题发现"><a href="#问题发现" class="headerlink" title="问题发现"></a>问题发现</h3><ul>
