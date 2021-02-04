@@ -4,7 +4,7 @@
     <title>最简单启动合成大西瓜</title>
     <url>/2021/02/04/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/</url>
     <content><![CDATA[<blockquote>
-<p>最近合成大西瓜忽然爆火，并且出了很多的魔改版<br>很多人找到了源码但是不知道怎么启动<br>毕竟点击index.html之后能打开但是爆了一堆错误<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/1.png" alt="合成大西瓜bug"><br>看来看去不就是跨域问题<br>网上的教程一水的 <code>node</code> + <code>npm</code><br>今天整个个人认为最简单的，这东西实际上不就个静态文件吗<br>该有的依赖不是在包里就是引的cdn，<br>直接 <code>Nginx</code> 他不香吗<br>说整就整</p>
+<p>最近合成大西瓜忽然爆火，并且出了很多的魔改版<br>很多人找到了源码但是不知道怎么启动<br><a href="https://github.com/li-ji-ji/gua.git">COPY下来的源码地址</a><br>毕竟点击index.html之后能打开但是爆了一堆错误<br><img src="https://blog-1257162717.cos.ap-shanghai.myqcloud.com/%E6%9C%80%E7%AE%80%E5%8D%95%E5%90%AF%E5%8A%A8%E5%90%88%E6%88%90%E5%A4%A7%E8%A5%BF%E7%93%9C/1.png" alt="合成大西瓜bug"><br>看来看去不就是跨域问题<br>网上的教程一水的 <code>node</code> + <code>npm</code><br>今天整个个人认为最简单的，这东西实际上不就个静态文件吗<br>该有的依赖不是在包里就是引的cdn，<br>直接 <code>Nginx</code> 他不香吗<br>说整就整</p>
 </blockquote>
 <a id="more"></a>
 
