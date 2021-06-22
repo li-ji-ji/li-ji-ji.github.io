@@ -9,7 +9,6 @@ tags:
 - Linux
 keywords:
 - Linux
-copyright: true
 ---
 
 ## 1. 在客户端生成公私钥  
