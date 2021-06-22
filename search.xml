@@ -3,26 +3,28 @@
   <entry>
     <title>ssh免密登陆</title>
     <url>/2021/06/22/ssh%E5%85%8D%E5%AF%86%E7%99%BB%E9%99%86/</url>
-    <content><![CDATA[<h2 id="1-在客户端生成公私钥"><a href="#1-在客户端生成公私钥" class="headerlink" title="1. 在客户端生成公私钥"></a>1. 在客户端生成公私钥</h2>  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">ssh-keygen <span class="token comment"># 在当前服务器生成公私钥,选项全为默认即可</span>
-<span class="token builtin class-name">cd</span> ~/.ssh  <span class="token comment"># 进入公私钥存放文件夹</span>
-<span class="token function">ls</span>         <span class="token comment"># 查看所有文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
-  <pre class="line-numbers language-id_rsa```" data-language="id_rsa```"><div class="caption"><span>私钥文件</span></div><code class="language-id_rsa```">  &#96;&#96;&#96;id_rsa.pub&#96;&#96;&#96; 公钥文件  
+    <content><![CDATA[<h2 id="1-在客户端生成公私钥"><a href="#1-在客户端生成公私钥" class="headerlink" title="1. 在客户端生成公私钥"></a>1. 在客户端生成公私钥</h2>  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">  ssh-keygen <span class="token comment"># 在当前服务器生成公私钥,选项全为默认即可</span>
+  <span class="token builtin class-name">cd</span> ~/.ssh  <span class="token comment"># 进入公私钥存放文件夹</span>
+  <span class="token function">ls</span>         <span class="token comment"># 查看所有文件</span>
+  ``<span class="token variable"><span class="token variable">`</span>  
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>id_rsa<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span> 私钥文件  
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>id_rsa.pub<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span> 公钥文件  
 
-## 2. 把公钥上传到服务器
-  &#96;&#96;&#96;bash
-  ssh-copy-id -i ~&#x2F;.ssh&#x2F;id_rsa evil@192.168.1.155 # 复制公钥到服务器上
-  &#96;&#96;&#96;  
-  192.168.1.155为服务器地址  
+<span class="token comment">## 2. 把公钥上传到服务器</span>
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
+  ssh-copy-id -i ~/.ssh/id_rsa evil@192.168.1.155 <span class="token comment"># 复制公钥到服务器上</span>
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>  
+  <span class="token number">192.168</span>.1.155为服务器地址  
   evil为服务器登陆用户名  
   此时可登陆到服务器确认.ssh目录中是否以写入客户端公钥
-  &#96;&#96;&#96;bash
-  cd ~&#x2F;.ssh # 进入用户目录下.ssh文件夹
-  cat authorized_keys #查看文件中是否已写入客户端公钥
-  &#96;&#96;&#96;  
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
+  <span class="token builtin class-name">cd</span> ~/.ssh <span class="token comment"># 进入用户目录下.ssh文件夹</span>
+  <span class="token function">cat</span> authorized_keys <span class="token comment">#查看文件中是否已写入客户端公钥</span>
+  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>  
 
-## 3. 免密登陆
-  &#96;&#96;&#96;bash
-  ssh evil@192.168.1.155 # 通过ssh免密登陆服务器<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<span class="token comment">## 3. 免密登陆</span>
+  <span class="token variable">`</span></span>``bash
+  <span class="token function">ssh</span> evil@192.168.1.155 <span class="token comment"># 通过ssh免密登陆服务器</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>Linux</category>
