@@ -3,28 +3,15 @@
   <entry>
     <title>ssh免密登陆</title>
     <url>/2021/06/22/ssh%E5%85%8D%E5%AF%86%E7%99%BB%E9%99%86/</url>
-    <content><![CDATA[<h2 id="1-在客户端生成公私钥"><a href="#1-在客户端生成公私钥" class="headerlink" title="1. 在客户端生成公私钥"></a>1. 在客户端生成公私钥</h2>  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">  ssh-keygen <span class="token comment"># 在当前服务器生成公私钥,选项全为默认即可</span>
-  <span class="token builtin class-name">cd</span> ~/.ssh  <span class="token comment"># 进入公私钥存放文件夹</span>
-  <span class="token function">ls</span>         <span class="token comment"># 查看所有文件</span>
-  ``<span class="token variable"><span class="token variable">`</span>  
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>id_rsa<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span> 私钥文件  
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>id_rsa.pub<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span> 公钥文件  
-
-<span class="token comment">## 2. 把公钥上传到服务器</span>
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
-  ssh-copy-id -i ~/.ssh/id_rsa evil@192.168.1.155 <span class="token comment"># 复制公钥到服务器上</span>
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>  
-  <span class="token number">192.168</span>.1.155为服务器地址  
-  evil为服务器登陆用户名  
-  此时可登陆到服务器确认.ssh目录中是否以写入客户端公钥
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
-  <span class="token builtin class-name">cd</span> ~/.ssh <span class="token comment"># 进入用户目录下.ssh文件夹</span>
-  <span class="token function">cat</span> authorized_keys <span class="token comment">#查看文件中是否已写入客户端公钥</span>
-  <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>  
-
-<span class="token comment">## 3. 免密登陆</span>
-  <span class="token variable">`</span></span>``bash
-  <span class="token function">ssh</span> evil@192.168.1.155 <span class="token comment"># 通过ssh免密登陆服务器</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+    <content><![CDATA[<h2 id="1-在客户端生成公私钥"><a href="#1-在客户端生成公私钥" class="headerlink" title="1. 在客户端生成公私钥"></a>1. 在客户端生成公私钥</h2>  <pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">ssh<span class="token operator">-</span>keygen <span class="token comment"># 在当前服务器生成公私钥,选项全为默认即可  </span>
+cd ~<span class="token operator">/</span><span class="token punctuation">.</span>ssh  <span class="token comment"># 进入公私钥存放文件夹  </span>
+<span class="token function">ls</span>         <span class="token comment"># 查看所有文件</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>  <code>id_rsa</code>私钥文件<br>  <code>id_rsa.pub</code> 公钥文件  </p>
+<h2 id="2-把公钥上传到服务器"><a href="#2-把公钥上传到服务器" class="headerlink" title="2. 把公钥上传到服务器"></a>2. 把公钥上传到服务器</h2>  <pre class="line-numbers language-powershell" data-language="powershell"><code class="language-powershell">ssh<span class="token operator">-</span><span class="token function">copy-id</span> <span class="token operator">-</span>i ~<span class="token operator">/</span><span class="token punctuation">.</span>ssh<span class="token operator">/</span>id_rsa evil@192<span class="token punctuation">.</span>168<span class="token punctuation">.</span>1<span class="token punctuation">.</span>155 <span class="token comment"># 复制公钥到服务器上</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>  <code>192.168.1.155</code>为服务器地址<br>  <code>evil</code>为服务器登陆用户名<br>  此时可登陆到服务器确认<code>.ssh</code>目录中是否以写入客户端公钥  </p>
+  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token builtin class-name">cd</span> ~/.ssh <span class="token comment"># 进入用户目录下.ssh文件夹</span>
+<span class="token function">cat</span> authorized_keys <span class="token comment">#查看文件中是否已写入客户端公钥</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h2 id="3-免密登陆"><a href="#3-免密登陆" class="headerlink" title="3. 免密登陆"></a>3. 免密登陆</h2>  <pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">ssh</span> evil@192.168.1.155 <span class="token comment"># 通过ssh免密登陆服务器</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 ]]></content>
       <categories>
         <category>Linux</category>
